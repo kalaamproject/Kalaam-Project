@@ -1,11 +1,12 @@
 import React from "react";
+import backgroundImage from "../../image/backgroundImage.png";
 
-
+console.log(backgroundImage)
 
 const Background =() => {
     return (
     
-    <h1>Background Kalaam</h1>
+    <img src={backgroundImage} alt={"afghan child"} />
     
     
     )
