@@ -1,16 +1,21 @@
 import './App.css';
-import './components/Background/Background';
+// import Background from './components/Background/Background';
+// import './components/Layouts/Background/Background';
 import "./components/NavBar/NavBar";
-import Background from './components/Background/Background';
-import NavBar from './components/NavBar/NavBar';
+// import Background from './components/Layouts/Background/Background';
+// import NavBar from './components/NavBar/NavBar';
+import Main from './Layouts/Main/Main';
 
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Background />
-    </div>
+    <Main>
+
+      <div className="App">
+        {/* <Background /> */}
+        
+      </div>
+    </Main>
   );
 }
 

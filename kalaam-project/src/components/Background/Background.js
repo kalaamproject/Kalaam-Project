@@ -3,12 +3,9 @@ import backgroundImage from "../../image/backgroundImage.png";
 
 console.log(backgroundImage)
 
-const Background =() => {
+const Background = () => {
     return (
-    
-    <img src={backgroundImage} alt={"afghan child"} />
-    
-    
+    <img className="backgroundImage" src={backgroundImage} alt="afghan child" />
     )
 }
 
