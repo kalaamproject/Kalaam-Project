@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../NavBar";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import News from "../../components/News/News";
-import About from "../../components/About/About";
-import Sponser from "../../components/Sponser/Sponser";
-import Contact from "../../components/Contact/Contact";
-import Donate from "../../components/Donate/Donate";
+import News from "../../pages/News";
+import About from "../../pages/About";
+import Sponser from "../../pages/Sponser";
+import Contact from "../../pages/Contact";
+import Donate from "../../pages/Donate";
 
 const Main = () => {
     return(
