@@ -1,5 +1,5 @@
 import React from 'react';
-import { News,About,Sponser,Contact,Donate } from './pages';
+// import { News,About,Sponser,Contact,Donate } from './pages';
 import { NavBar } from './layout';
 import Background from './components/Background/Background'
 import './App.css';
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <NavBar />
       <Background />
     </div>
